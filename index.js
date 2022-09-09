@@ -1,6 +1,6 @@
 // index.js
 const TinyScraper = require('./tiny-scraper');
-const scraper = new TinyScraper('http://localhost:8000/url1');
+const scraper = new TinyScraper('http://localhost:8000/url2');
 
 scraper.on('scrapeSuccess', (data) => {
     console.log('JSON Data received:', data);
